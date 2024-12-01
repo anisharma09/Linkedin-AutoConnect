@@ -1,0 +1,13 @@
+{
+    "manifest_version": 3,
+    "name": "LinkedIn Connection Helper",
+    "version": "1.0",
+    "description": "Send LinkedIn connection requests with customized notes.",
+    "permissions": ["activeTab", "scripting", "storage", "tabs"],
+    "host_permissions": ["https://www.linkedin.com/*"],
+    "action": {
+      "default_popup": "popup.html",
+      "default_icon": "icon.png"
+    }
+  }
+  
